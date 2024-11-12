@@ -1,0 +1,42 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+body {
+  background-color: rgb(226, 128, 17);
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 3rem;
+  color: white;
+}
+
+th,
+td {
+  padding: 0 4rem;
+  text-align: left;
+}
+table .table-head {
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+p {
+  color: white;
+  font-weight: 400;
+  text-align: center;
+  line-height: 2px;
+}
+p a {
+  color: white;
+}
+/* tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+th {
+  background-color: #4caf50;
+  color: white;
+} */
